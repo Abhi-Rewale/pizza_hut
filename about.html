@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Review Form</title>
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <div class="container">
+        <section class="reviews-section">
+            <h2>Customer Reviews</h2>
+            
+            <!-- Review Form -->
+            <div class="review-form">
+                <h3>Submit Your Review</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="customer-name">Your Name</label>
+                        <input type="text" id="customer-name" name="name" placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="review-text">Your Review</label>
+                        <textarea id="review-text" name="review" rows="4" placeholder="Write your review..." required></textarea>
+                    </div>
+
+                    <div class="form-group rating-group">
+                        <label for="rating">Rating</label>
+                        <div class="stars">
+                            <label>
+                                <input type="radio" name="rating" value="1">
+                                <span class="star">★</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="rating" value="2">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="rating" value="3">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="rating" value="4">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="rating" value="5">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit Review</button>
+                </form>
+            </div>
+
+            <!-- Display Submitted Reviews -->
+            <div class="review-list">
+                <h3>Customer Feedback</h3>
+                
+                <!-- Example Reviews -->
+                <div class="review">
+                    <div class="review-header">
+                        <span class="customer-name">Abhi Rewale</span>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                        </div>
+                    </div>
+                    <p class="review-text">This product exceeded my expectations. The quality is fantastic, and the customer service was amazing!</p>
+                </div>
+
+                <div class="review">
+                    <div class="review-header">
+                        <span class="customer-name">Ganesh Savle</span>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">☆</span>
+                            <span class="star">☆</span>
+                        </div>
+                    </div>
+                    <p class="review-text">Great product, but it took a little longer to arrive than expected. Overall, I’m happy with my purchase.</p>
+                </div>
+            </div>
+            <button class="button"><a href="home.html">back to home</a></button>
+        </section>
+    </div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+/* Menu Preview Section */
+#menu-preview {
+    padding: 50px 0;
+    background-color: #1a1a1a; /* Dark background for the section */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #ff6347; /* Pizza Hut Red */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #2a2a2a; /* Slightly lighter dark background for each menu item */
+    padding: 20px;
+    border-radius: 15px;
+    width: 220px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-10px); /* Hover effect to raise the card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+}
+
+.menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.menu-item h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.menu-item p {
+    font-size: 1.1rem;
+    color: #d3d3d3; /* Light gray text for price */
+}
+.button{
+    width: 100px;
+    height:40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 90%;
+    top: 5%;
+
+}
+.btn:focus{
+    outline:none ;
+}

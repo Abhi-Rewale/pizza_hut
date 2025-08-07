@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #121212; /* Dark background */
+    color: white; /* White text for contrast */
+}
+
+/* Limited Time Offers Section */
+#limited-time-offers {
+    padding: 50px 0;
+    background-color: #1a1a1a; /* Dark background for the section */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #ff6347; /* Pizza Hut Red */
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.offers-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.offer-item {
+    background-color: #2a2a2a; /* Dark background for each offer */
+    padding: 20px;
+    border-radius: 15px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.offer-item:hover {
+    transform: translateY(-10px); /* Hover effect to raise the card */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); /* Shadow on hover */
+}
+
+.offer-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.offer-item h3 {
+    font-size: 1.5rem;
+    color: #ff6347; /* Pizza Hut Red for the title */
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.offer-item p {
+    font-size: 1.1rem;
+    color: #d3d3d3; /* Light gray text */
+    margin-bottom: 20px;
+}
+
+.countdown {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff6347; /* Pizza Hut Red for countdown timer */
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    font-size: 1.1rem;
+    padding: 10px 20px;
+    background-color: #ff6347; /* Pizza Hut Red */
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Button shadow */
+}
+
+.button{
+    width: 100px;
+    height:40px;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 90%;
+    top: 1%;
+}
+.btn:focus{
+    outline:none ;
+}
+.srch:focus{
+    outline: none;
+}
+
+.cta-btn:hover {
+    background-color: #e5533b; /* Darker red on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .offers-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .offer-item {
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
