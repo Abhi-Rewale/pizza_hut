@@ -14,19 +14,7 @@ A modern, responsive frontend-only pizza delivery website built using **HTML** a
 - 📱 Responsive design using CSS
 - 📌 Social media icons and footer navigation
 
----
 
-## 📁 Project Structure
-pizza_hut/
-│
-├── home.html # Main homepage
-├── home.css # Main stylesheet (linked in HTML)
-├── images/ # All product and logo images
-├── menu.html # (Linked - not included in this demo)
-├── special_offer.html # (Linked - not included in this demo)
-├── about.html
-├── contact_us.html
-└── log_in.html
 ---
 
 ## 🛠️ Technologies Used
@@ -37,14 +25,3 @@ pizza_hut/
 
 ---
 
-## 📸 Screenshot
-
-> *(Optional: Add a screenshot here of the homepage layout)*
-
----
-
-## 📦 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Abhi-Rewale/pizza_hut.git
